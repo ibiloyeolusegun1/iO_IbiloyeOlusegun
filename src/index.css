@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --primary-dark: #da7434;
+    --primary-light: #e7a176;
+}
+@layer base{
+    html{
+        @apply scroll-smooth
+    }
+    button{
+        @apply px-4 py-2 bg-[var(--primary-dark)] text-white
+    }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --primary-dark: #da7434;
+    --primary-light: #e7a176;
+}
+@layer base{
+    html{
+        @apply scroll-smooth
+    }
+}
