@@ -5,7 +5,7 @@
 
 :root{
     --primary-dark: #da7434;
-    --primary-light: #e7a176;
+    --primary-light: #f1975f;
 }
 @layer base{
     html{
@@ -14,18 +14,22 @@
     button{
         @apply px-4 py-2 bg-[var(--primary-dark)] text-white
     }
-}
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    section{
+        margin-bottom: 5rem;
+    }
+    .section{
+        margin-bottom: 4rem;
+    }
 
 
-:root{
-    --primary-dark: #da7434;
-    --primary-light: #e7a176;
-}
-@layer base{
-    html{
-        @apply scroll-smooth
+    @media(min-width: 768px) and (max-width: 991px) {
+        .section{
+            margin-bottom: -6rem;
+        }
+    }
+    @media(min-width: 992px) and (max-width: 1199px) {
+        .section{
+            margin-bottom: -6rem;
+        }
     }
 }
