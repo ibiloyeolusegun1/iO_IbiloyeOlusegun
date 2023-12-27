@@ -15,11 +15,11 @@ const Skill = () => {
           </h1>
         </div>
 
-        <div className="grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {skills.map((item, index) => (
             <div
               key={index}
-              className="px-4 py-6 border-2 border-[var(--primary-light)] cursor-pointer hover:-translate-y-2 transition-all duration-300"
+              className="px-4 py-6 border-2 hover:border-[var(--primary-light)] rounded-xl shadow-md cursor-pointer hover:-translate-y-2 transition-all duration-300"
             >
               <FaCheckCircle className="text-green-700 mb-3" size={25} />
               <h2 className="text-xl sm:text-2xl text-gray-700 font-semibold">

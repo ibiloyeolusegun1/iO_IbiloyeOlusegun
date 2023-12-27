@@ -36,7 +36,7 @@ const About = () => {
                     Experience
                   </p>
                   <span className="text-gray-600">
-                    <CountUp start={1} end={4} duration={4} />
+                    <CountUp start={1} end={2} duration={4} />
                     <span>+</span>
                     <span>Year</span>
                   </span>
