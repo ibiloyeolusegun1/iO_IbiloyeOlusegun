@@ -9,7 +9,7 @@ const About = () => {
 
    const [list, setList] = useState([
      {
-       aim: "01 Satifying Client",
+       aim: "01 Satisfying Client",
        detail:
          "To satisfy my clients, by understanding what they actually want for their website and it's functionalities.",
          active: 1,

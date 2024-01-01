@@ -1,5 +1,6 @@
 import React from "react";
-import { FaEnvelope, FaWhatsapp, FaLinkedinIn, FaTelegramPlane, FaTelegram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+// import { FaEnvelope, FaWhatsapp, FaLinkedinIn, FaTelegramPlane, FaTelegram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -67,6 +68,7 @@ const Contact = () => {
       <div className="max-w-screen mx-auto px-2 py-10 flex items-center justify-center md:px-5 lg:px-20">
         <button>contact</button>
       </div>
+      {/* <ReactWhatsapp number="+234 09039176489" message="I am interested" >Mae</ReactWhatsapp> */}
     </section>
   );
 };

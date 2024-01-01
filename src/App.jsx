@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
 import Skill from './components/Skill'
 import Topbar from './components/Topbar'
+import Whatsapp from './components/Whatsapp'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <About />
         <Skill />
         <Portfolio />
-        <Contact />
+        {/* <Contact /> */}
+        <Whatsapp />
         <Footer />
       </div>
     </main>
