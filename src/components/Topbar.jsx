@@ -23,7 +23,9 @@ const Topbar = () => {
             size={20}
             className="mr-1 text-[var(--primary-dark)]"
           />
-          <p className="text-sm text-gray-700">09039176489</p>
+          <a href="tel:09039176489" className="text-sm text-gray-700">
+            09039176489
+          </a>
         </div>
         <a
           href="#contact"

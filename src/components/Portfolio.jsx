@@ -7,9 +7,6 @@ const Portfolio = () => {
     <section className="bg-white" id="portfolio">
       <div className="max-w-screen mx-auto px-2 md:px-5 lg:px-20 ">
         <div className="flex items-center justify-center flex-col mb-8">
-          <p className="text-center text-lg text-[var(--primary-dark)] font-semibold">
-            Recent Work
-          </p>
           <h1 className="text-center text-5xl text-gray-600 font-semibold">
             My Portfolio
           </h1>

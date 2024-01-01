@@ -3,12 +3,9 @@ import { FaEnvelope, FaWhatsapp, FaLinkedinIn, FaTelegramPlane, FaTelegram } fro
 
 const Contact = () => {
   return (
-    <section className="bg-white" id="contact">
-      <div className="max-w-screen mx-auto px-2 md:px-5 lg:px-20">
+    <section className="bg-[var(--primary-light)]" id="contact">
+      {/* <div className="max-w-screen mx-auto px-2 md:px-5 lg:px-20">
         <div className="flex items-center justify-center flex-col mb-8">
-          <p className="text-center text-lg text-[var(--primary-dark)] font-semibold">
-            Get In Touch
-          </p>
           <h1 className="text-center text-5xl text-gray-600 font-semibold">
             Contact
           </h1>
@@ -66,6 +63,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="max-w-screen mx-auto px-2 py-10 flex items-center justify-center md:px-5 lg:px-20">
+        <button>contact</button>
       </div>
     </section>
   );
