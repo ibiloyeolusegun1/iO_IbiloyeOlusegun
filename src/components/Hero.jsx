@@ -24,7 +24,7 @@ const Hero = () => {
               </h3>
               <p className="pb-10 text-gray-500">
                 I am IBILOYE OLUSEGUN a passionate Frontend Web Developer and
-                Designer with minimum of 3 years experience.
+                Designer with a minimum of 3 years experience.
               </p>
               <a
                 href="#contact"

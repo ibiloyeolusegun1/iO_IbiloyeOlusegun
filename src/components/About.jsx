@@ -88,7 +88,7 @@ const About = () => {
               <div className="w-[100%]">
                 <p className="text-base text-justify text-gray-500 my-6 space-y-4 mb-3">
                   I am IBILOYE OLUSEGUN a passionate Frontend Web Developer and
-                  Designer with minimum of 3 years experience.{" "}
+                  Designer with a minimum of 3 years experience.{" "}
                 </p>
                 {/* <h1 className="text-xl font-semibold text-gray-600">
                   My aim and target:
